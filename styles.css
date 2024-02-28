@@ -10,13 +10,14 @@ body {
     max-width: 400px;
     margin: 50px auto;
     padding: 20px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    background: linear-gradient(to bottom, #4CAF50, #FFFF00, #FF5733);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
 }
 
 h1 {
     text-align: center;
+    color: #333;
 }
 
 form {
@@ -26,6 +27,7 @@ form {
 
 label {
     margin-bottom: 10px;
+    color: #555;
 }
 
 input[type="number"], select {
@@ -47,4 +49,17 @@ button {
 
 button:hover {
     background-color: #0056b3;
+}
+
+.result {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #f8f9fa;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.error {
+    color: red;
 }
